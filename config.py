@@ -32,8 +32,8 @@ class config(object):
     USE_STATIC_IP = False
     USE_VLAN = False
 
-    # Ethernet Routing (choose one): {'DFS', 'Djisktra'}
-    LOCAL_ROUTING = 'DFS'
+    # Ethernet Routing (choose one): {'DFS', 'Dijkstra'}
+    LOCAL_ROUTING = 'Dijkstra'
 
     # contains entries of switch used as gateway
     USE_GATEWAY = False
